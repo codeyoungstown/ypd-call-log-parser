@@ -39,7 +39,7 @@ def main():
     try:
         pages = []
         for filename in os.listdir(directory):
-            if filename.endswith('.jpeg') or filename.endswith('.jpg'):
+            if filename.lower().endswith('.jpeg') or filename.lower().endswith('.jpg'):
 
                 sys.stdout.write('.')
                 sys.stdout.flush()
