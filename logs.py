@@ -11,7 +11,8 @@ from PIL import Image
 EXCLUDE_KEYWORDS = [
     'amr', 'lift', 'animal', 'alarm', 'structure', 'medical', 'persons',
     'parking', 'dog', 'accident', 'assist', 'paper', 'barking', '911',
-    'repossession', 'runaway', 'odor', 'alarm', 'ambulance'
+    'repossession', 'runaway', 'odor', 'alarm', 'ambulance', 'service',
+    'vehicle', 'traffic', 'trash', 'info', 'repo', 'dav', 'lift'
 ]
 
 ID_RE = re.compile(r'^\d{9}')
