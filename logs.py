@@ -58,6 +58,7 @@ def main():
         sys.exit(1)
 
     sys.stdout.write('\n')
+    sys.stdout.write('{} pages processed.\n'.format(len(pages)))
 
     # Sanitize lines
     clean_lines = []
@@ -85,8 +86,10 @@ def main():
             )
 
     if not clean_lines:
-        sys.stderr.write('No results\n')
+        sys.stderr.write('No results.\n')
         sys.exit(1)
+    
+    sys.stdout.write('{} lines found.\n\n'.format(len(clean_lines)))
 
     # Output comma separated list of IDs only
     if args.output_ids:
