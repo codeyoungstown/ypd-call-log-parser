@@ -13,6 +13,7 @@ EXCLUDE_KEYWORDS = [
     'parking', 'dog', 'accident', 'assist', 'paper', 'barking', '911',
     'repossession', 'runaway', 'odor', 'alarm', 'ambulance', 'service',
     'vehicle', 'traffic', 'trash', 'info', 'repo', 'dav', 'lift', 'street',
+    'wires', 'utility'
 ]
 
 ID_RE = re.compile(r'^\d{9}')
